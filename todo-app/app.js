@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");
 
 app.use(session({
-  secret: "my-super-secret-key-66498466848",
+  secret: "TheQuickBrownFoxJumpsOveraLazyDog",
   cookie:{
     maxAge:24*60*60*1000,
   },
